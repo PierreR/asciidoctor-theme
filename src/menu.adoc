@@ -8,8 +8,8 @@
 :linkattrs:
 
 // Define macros for each HTML file referenced in the menu
-:page1: /page-1.html[Page 1]
-:page2: /page-2.html[Page 2]
+:page1: /page_1.html[Page 1]
+:page2: /page_2.html[Page 2]
 
 // Define other macros referenced in the text
 [.navbar]
