@@ -1,21 +1,8 @@
 :toc: left
-:imagesdir: img
 :toclevels: 2
-:source-highlighter: pygments
-:icons: font
-:experimental:
-:nofooter:
-:example-caption!:
 
-= Level 1
-John Doe <john@mymail.com>
-v2.0, February 2003: Rewritten for version 2 release.
+include::menu.adoc[]
 
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 == Level 2
 

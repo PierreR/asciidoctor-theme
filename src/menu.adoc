@@ -6,6 +6,7 @@
 :example-caption!:
 :source-language: bash
 :linkattrs:
+:experimental:
 
 // Define macros for each HTML file referenced in the menu
 :page1: /page_1.html[Page 1]
