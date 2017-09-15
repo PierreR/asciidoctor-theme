@@ -1,0 +1,17 @@
+:imagesdir: img
+:source-highlighter: pygments
+:icons: font
+:nofooter:
+:page-layout: docs
+:example-caption!:
+:source-language: bash
+:linkattrs:
+
+// Define macros for each HTML file referenced in the menu
+:page1: /page-1.html[Page 1]
+:page2: /page-2.html[Page 2]
+
+// Define other macros referenced in the text
+[.navbar]
+- link:{page1}
+- link:{page2}

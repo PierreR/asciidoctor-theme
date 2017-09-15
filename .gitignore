@@ -1,8 +1,5 @@
 css/
 output/
 out/
+build/
 result
-default.nix
-node-packages.nix
-node-env.nix
-supplement.nix
