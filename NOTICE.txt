@@ -8,7 +8,9 @@ See file LICENSE for details.
 This product includes the following software with their respective
 copyrights and licenses:
 
-- CSS for AsciiDoc elements is based on the files 
+- Initially fork from https://github.com/nerk/asciidoctor-bs-themes
+
+- CSS for AsciiDoc elements is based on the files
     _asciidoc.scss and 
 	_awesome-icons.scss
 	
@@ -37,8 +39,3 @@ copyrights and licenses:
   http://fontawesome.io/
   http://fontawesome.io/license/
   
-  
-  
-  
-  
-
