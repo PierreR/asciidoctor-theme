@@ -1,5 +1,11 @@
 css/
 output/
 out/
-build/
+_build/
+build/_shake
+build/*.cabal
+build/Setup.hs
+stack.yaml
 result
+.stack-work
+dist

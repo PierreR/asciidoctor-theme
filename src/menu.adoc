@@ -7,8 +7,9 @@
 :source-language: bash
 :linkattrs:
 :experimental:
-:toc: left
+:toc:
 :toclevels: 2
+:page-layout: docs
 
 // Define macros for each HTML file referenced in the menu
 :page1: /page_1.html[Page 1]

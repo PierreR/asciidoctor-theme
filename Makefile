@@ -1,10 +1,9 @@
-all: page_1.html page_2.html menu.html
+phony: clean html
 
-css/flatly.css:
-	nix-shell release.nix -A env --run "lessc -s --global-var=\"bsw-root='https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages'\" src/less/flatly.less $@"
+all: html
 
-%.html: src/%.adoc css/flatly.css
-	asciidoctor -a linkcss -a stylesheet=css/flatly.css -o $@ $<
+html:
+	@nix-shell release.nix -A env --run "build/build.sh html"
 
 clean:
-	rm -rf css
+	@rm -rf css
